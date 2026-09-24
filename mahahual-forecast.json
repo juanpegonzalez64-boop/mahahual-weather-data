@@ -3,12 +3,56 @@
   "status": "operational",
   "location": "Mahahual, Quintana Roo, Mexico",
   "timezone": "America/Cancun",
-  "generatedAtUtc": "2026-09-24T21:50:42.127Z",
+  "generatedAtUtc": "2026-09-24T22:00:55.377Z",
   "source": {
     "provider": "Open-Meteo",
     "model": "best_match",
     "purpose": "Forecast complementing IQUINT129",
     "observedLightning": false
+  },
+  "summaries": {
+    "hours0to6": {
+      "fromHours": 0,
+      "toHours": 6,
+      "temperatureMinC": 24.4,
+      "temperatureMaxC": 25.5,
+      "humidityMaxPct": 99,
+      "precipProbabilityMaxPct": 96,
+      "precipitationTotalMm": 11.700000000000001,
+      "cloudCoverAvgPct": 98.33333333333333,
+      "windSpeedMaxKmh": 6.9,
+      "windGustMaxKmh": 15.8,
+      "shortwaveRadiationMaxWm2": 0,
+      "capeMaxJkg": 1180
+    },
+    "hours6to24": {
+      "fromHours": 6,
+      "toHours": 24,
+      "temperatureMinC": 24,
+      "temperatureMaxC": 29.8,
+      "humidityMaxPct": 100,
+      "precipProbabilityMaxPct": 93,
+      "precipitationTotalMm": 10.3,
+      "cloudCoverAvgPct": 95.88888888888889,
+      "windSpeedMaxKmh": 10,
+      "windGustMaxKmh": 31,
+      "shortwaveRadiationMaxWm2": 627,
+      "capeMaxJkg": 2670
+    },
+    "hours24to48": {
+      "fromHours": 24,
+      "toHours": 48,
+      "temperatureMinC": 25.6,
+      "temperatureMaxC": 29.6,
+      "humidityMaxPct": 93,
+      "precipProbabilityMaxPct": 69,
+      "precipitationTotalMm": 1.4000000000000001,
+      "cloudCoverAvgPct": 90.08333333333333,
+      "windSpeedMaxKmh": 13.3,
+      "windGustMaxKmh": 29.9,
+      "shortwaveRadiationMaxWm2": 501,
+      "capeMaxJkg": 2410
+    }
   },
   "hourly": [
     {
