@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "status": "awaiting-worker-feed",
+  "location": "Mahahual, Quintana Roo, Mexico",
+  "timezone": "America/Cancun",
+  "generatedAtUtc": null,
+  "source": {
+    "provider": "Open-Meteo",
+    "primaryModel": "ECMWF IFS HRES 9 km",
+    "secondaryModel": "NOAA GFS",
+    "purpose": "Short-term forecast layer complementing local station IQUINT129",
+    "observedLightning": false
+  },
+  "freshness": {
+    "maxAgeMinutes": 90,
+    "isFresh": false
+  },
+  "windows": {
+    "next0to6h": {
+      "precipitationMm": null,
+      "maxPrecipProbabilityPct": null,
+      "maxWindGustKmh": null,
+      "minShortwaveRadiationWm2": null,
+      "maxCapeJkg": null,
+      "minCinJkg": null,
+      "minLiftedIndex": null,
+      "maxLightningDensity": null,
+      "summary": null
+    },
+    "next6to24h": {
+      "precipitationMm": null,
+      "maxPrecipProbabilityPct": null,
+      "maxWindGustKmh": null,
+      "maxCapeJkg": null,
+      "minCinJkg": null,
+      "minLiftedIndex": null,
+      "maxLightningDensity": null,
+      "summary": null
+    },
+    "next24to48h": {
+      "precipitationMm": null,
+      "maxPrecipProbabilityPct": null,
+      "maxWindGustKmh": null,
+      "maxCapeJkg": null,
+      "summary": null
+    }
+  },
+  "hourly": [],
+  "notes": [
+    "Forecast/model data are not observations.",
+    "CAPE, CIN, Lifted Index and lightning density must not be presented as observed lightning.",
+    "IQUINT129 remains the primary source for current conditions at the house.",
+    "This file is a schema placeholder until the Cloudflare Worker populates it from Open-Meteo."
+  ]
+}
