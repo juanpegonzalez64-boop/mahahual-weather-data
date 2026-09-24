@@ -1,25 +1,25 @@
 {
   "plantId": "157652",
-  "fetchedAt": "2026-09-24T21:40:46.406Z",
+  "fetchedAt": "2026-09-24T21:48:19.859Z",
   "requestedDate": "2026-09-24",
   "historyTimezone": null,
   "historyTimeNote": "Horas de la gráfica; zona pendiente de validar. No son timestamps UTC.",
-  "realtimeUpdatedAt": "2026-09-24T21:38:59Z",
+  "realtimeUpdatedAt": "2026-09-24T21:43:59Z",
   "flowMeasuredAt": null,
-  "pvPowerW": 1773,
-  "loadPowerW": 443,
+  "pvPowerW": 1622,
+  "loadPowerW": 447,
   "socPct": 89,
-  "batteryPowerReportedW": 1141,
+  "batteryPowerReportedW": 1010,
   "batteryToLoad": false,
   "toBattery": true,
   "gridPowerReportedW": 0,
   "generatorPowerW": 0,
   "generatorOn": false,
   "bmsCommFault": false,
-  "pvEnergyTodayKwh": 16.7,
-  "pvEnergyMonthKwh": 728.5,
-  "pvEnergyYearKwh": 2633.3,
-  "pvEnergyTotalKwh": 2633.3,
+  "pvEnergyTodayKwh": 16.9,
+  "pvEnergyMonthKwh": 728.7,
+  "pvEnergyYearKwh": 2633.5,
+  "pvEnergyTotalKwh": 2633.5,
   "series": [
     {
       "label": "PV",
@@ -1023,6 +1023,11 @@
         {
           "time": "16:35",
           "value": 1773,
+          "updateTime": null
+        },
+        {
+          "time": "16:40",
+          "value": 1622,
           "updateTime": null
         }
       ]
@@ -2030,6 +2035,11 @@
           "time": "16:35",
           "value": -1141,
           "updateTime": null
+        },
+        {
+          "time": "16:40",
+          "value": -1010,
+          "updateTime": null
         }
       ]
     },
@@ -3034,6 +3044,11 @@
         },
         {
           "time": "16:35",
+          "value": 89,
+          "updateTime": null
+        },
+        {
+          "time": "16:40",
           "value": 89,
           "updateTime": null
         }
@@ -4042,6 +4057,11 @@
           "time": "16:35",
           "value": 0,
           "updateTime": null
+        },
+        {
+          "time": "16:40",
+          "value": 0,
+          "updateTime": null
         }
       ]
     },
@@ -5047,6 +5067,11 @@
         {
           "time": "16:35",
           "value": 443,
+          "updateTime": null
+        },
+        {
+          "time": "16:40",
+          "value": 447,
           "updateTime": null
         }
       ]
