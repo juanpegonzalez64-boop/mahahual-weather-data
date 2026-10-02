@@ -1,21 +1,21 @@
 {
   "plantId": "157652",
-  "fetchedAt": "2026-10-02T07:20:24.138Z",
+  "fetchedAt": "2026-10-02T07:30:43.970Z",
   "requestedDate": "2026-10-02",
   "historyTimezone": null,
   "historyTimeNote": "Horas de la gráfica; zona pendiente de validar. No son timestamps UTC.",
-  "realtimeUpdatedAt": "2026-10-02T06:56:41Z",
+  "realtimeUpdatedAt": "2026-10-02T07:29:13Z",
   "flowMeasuredAt": null,
   "pvPowerW": 0,
-  "loadPowerW": 0,
-  "socPct": 0,
-  "batteryPowerReportedW": 0,
-  "batteryToLoad": false,
+  "loadPowerW": 594,
+  "socPct": 86,
+  "batteryPowerReportedW": 663,
+  "batteryToLoad": true,
   "toBattery": false,
   "gridPowerReportedW": 0,
   "generatorPowerW": 0,
   "generatorOn": false,
-  "bmsCommFault": null,
+  "bmsCommFault": false,
   "pvEnergyTodayKwh": 0,
   "pvEnergyMonthKwh": 25.5,
   "pvEnergyYearKwh": 2818.8,
@@ -109,6 +109,11 @@
           "time": "01:20",
           "value": 0,
           "updateTime": null
+        },
+        {
+          "time": "02:25",
+          "value": 0,
+          "updateTime": null
         }
       ]
     },
@@ -199,6 +204,11 @@
         {
           "time": "01:20",
           "value": 754,
+          "updateTime": null
+        },
+        {
+          "time": "02:25",
+          "value": 663,
           "updateTime": null
         }
       ]
@@ -291,6 +301,11 @@
           "time": "01:20",
           "value": 88,
           "updateTime": null
+        },
+        {
+          "time": "02:25",
+          "value": 86,
+          "updateTime": null
         }
       ]
     },
@@ -380,6 +395,11 @@
         },
         {
           "time": "01:20",
+          "value": 0,
+          "updateTime": null
+        },
+        {
+          "time": "02:25",
           "value": 0,
           "updateTime": null
         }
@@ -472,6 +492,11 @@
         {
           "time": "01:20",
           "value": 680,
+          "updateTime": null
+        },
+        {
+          "time": "02:25",
+          "value": 594,
           "updateTime": null
         }
       ]
