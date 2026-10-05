@@ -1,25 +1,25 @@
 {
   "plantId": "157652",
-  "fetchedAt": "2026-10-05T17:10:23.270Z",
+  "fetchedAt": "2026-10-05T17:20:36.059Z",
   "requestedDate": "2026-10-05",
   "historyTimezone": null,
   "historyTimeNote": "Horas de la gráfica; zona pendiente de validar. No son timestamps UTC.",
-  "realtimeUpdatedAt": "2026-10-05T17:09:15Z",
+  "realtimeUpdatedAt": "2026-10-05T17:19:15Z",
   "flowMeasuredAt": null,
-  "pvPowerW": 1185,
-  "loadPowerW": 995,
+  "pvPowerW": 1360,
+  "loadPowerW": 1242,
   "socPct": 99,
-  "batteryPowerReportedW": 41,
-  "batteryToLoad": false,
-  "toBattery": true,
+  "batteryPowerReportedW": 30,
+  "batteryToLoad": true,
+  "toBattery": false,
   "gridPowerReportedW": 0,
   "generatorPowerW": 0,
   "generatorOn": false,
   "bmsCommFault": false,
-  "pvEnergyTodayKwh": 13.3,
-  "pvEnergyMonthKwh": 104.7,
-  "pvEnergyYearKwh": 2898,
-  "pvEnergyTotalKwh": 2898,
+  "pvEnergyTodayKwh": 13.5,
+  "pvEnergyMonthKwh": 104.9,
+  "pvEnergyYearKwh": 2898.2,
+  "pvEnergyTotalKwh": 2898.2,
   "series": [
     {
       "label": "PV",
@@ -753,6 +753,16 @@
         {
           "time": "12:05",
           "value": 1185,
+          "updateTime": null
+        },
+        {
+          "time": "12:10",
+          "value": 1409,
+          "updateTime": null
+        },
+        {
+          "time": "12:15",
+          "value": 1360,
           "updateTime": null
         }
       ]
@@ -1490,6 +1500,16 @@
           "time": "12:05",
           "value": -41,
           "updateTime": null
+        },
+        {
+          "time": "12:10",
+          "value": -28,
+          "updateTime": null
+        },
+        {
+          "time": "12:15",
+          "value": 30,
+          "updateTime": null
         }
       ]
     },
@@ -2224,6 +2244,16 @@
         },
         {
           "time": "12:05",
+          "value": 99,
+          "updateTime": null
+        },
+        {
+          "time": "12:10",
+          "value": 99,
+          "updateTime": null
+        },
+        {
+          "time": "12:15",
           "value": 99,
           "updateTime": null
         }
@@ -2962,6 +2992,16 @@
           "time": "12:05",
           "value": 0,
           "updateTime": null
+        },
+        {
+          "time": "12:10",
+          "value": 0,
+          "updateTime": null
+        },
+        {
+          "time": "12:15",
+          "value": 0,
+          "updateTime": null
         }
       ]
     },
@@ -3697,6 +3737,16 @@
         {
           "time": "12:05",
           "value": 995,
+          "updateTime": null
+        },
+        {
+          "time": "12:10",
+          "value": 1231,
+          "updateTime": null
+        },
+        {
+          "time": "12:15",
+          "value": 1242,
           "updateTime": null
         }
       ]
