@@ -1,15 +1,15 @@
 {
   "plantId": "157652",
-  "fetchedAt": "2026-10-28T05:40:18.364Z",
+  "fetchedAt": "2026-10-28T05:50:59.325Z",
   "requestedDate": "2026-10-28",
   "historyTimezone": null,
   "historyTimeNote": "Horas de la gráfica; zona pendiente de validar. No son timestamps UTC.",
-  "realtimeUpdatedAt": "2026-10-28T05:40:16Z",
+  "realtimeUpdatedAt": "2026-10-28T05:50:17Z",
   "flowMeasuredAt": null,
-  "pvPowerW": 1,
-  "loadPowerW": 2470,
-  "socPct": 67,
-  "batteryPowerReportedW": 2558,
+  "pvPowerW": 0,
+  "loadPowerW": 530,
+  "socPct": 66,
+  "batteryPowerReportedW": 595,
   "batteryToLoad": true,
   "toBattery": false,
   "gridPowerReportedW": 0,
@@ -69,6 +69,11 @@
           "time": "00:40",
           "value": 1,
           "updateTime": null
+        },
+        {
+          "time": "00:45",
+          "value": 0,
+          "updateTime": null
         }
       ]
     },
@@ -119,6 +124,11 @@
         {
           "time": "00:40",
           "value": 2558,
+          "updateTime": null
+        },
+        {
+          "time": "00:45",
+          "value": 595,
           "updateTime": null
         }
       ]
@@ -171,6 +181,11 @@
           "time": "00:40",
           "value": 67,
           "updateTime": null
+        },
+        {
+          "time": "00:45",
+          "value": 66,
+          "updateTime": null
         }
       ]
     },
@@ -220,6 +235,11 @@
         },
         {
           "time": "00:40",
+          "value": 0,
+          "updateTime": null
+        },
+        {
+          "time": "00:45",
           "value": 0,
           "updateTime": null
         }
@@ -272,6 +292,11 @@
         {
           "time": "00:40",
           "value": 2470,
+          "updateTime": null
+        },
+        {
+          "time": "00:45",
+          "value": 530,
           "updateTime": null
         }
       ]
