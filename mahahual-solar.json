@@ -1,21 +1,21 @@
 {
   "plantId": "157652",
-  "fetchedAt": "2026-10-29T15:00:19.413Z",
+  "fetchedAt": "2026-10-29T15:10:17.580Z",
   "requestedDate": "2026-10-29",
   "historyTimezone": null,
   "historyTimeNote": "Horas de la gráfica; zona pendiente de validar. No son timestamps UTC.",
-  "realtimeUpdatedAt": "2026-10-29T14:38:43Z",
+  "realtimeUpdatedAt": "2026-10-29T15:06:48Z",
   "flowMeasuredAt": null,
   "pvPowerW": 0,
-  "loadPowerW": 0,
-  "socPct": 0,
-  "batteryPowerReportedW": 0,
-  "batteryToLoad": false,
+  "loadPowerW": 710,
+  "socPct": 74,
+  "batteryPowerReportedW": 776,
+  "batteryToLoad": true,
   "toBattery": false,
   "gridPowerReportedW": 0,
   "generatorPowerW": 0,
   "generatorOn": false,
-  "bmsCommFault": null,
+  "bmsCommFault": false,
   "pvEnergyTodayKwh": 3.2,
   "pvEnergyMonthKwh": 714.1,
   "pvEnergyYearKwh": 3507.4,
@@ -594,6 +594,11 @@
           "time": "09:25",
           "value": 0,
           "updateTime": null
+        },
+        {
+          "time": "10:05",
+          "value": 0,
+          "updateTime": null
         }
       ]
     },
@@ -1170,6 +1175,11 @@
           "time": "09:25",
           "value": 538,
           "updateTime": null
+        },
+        {
+          "time": "10:05",
+          "value": 776,
+          "updateTime": null
         }
       ]
     },
@@ -1744,6 +1754,11 @@
         },
         {
           "time": "09:25",
+          "value": 74,
+          "updateTime": null
+        },
+        {
+          "time": "10:05",
           "value": 74,
           "updateTime": null
         }
@@ -2322,6 +2337,11 @@
           "time": "09:25",
           "value": 0,
           "updateTime": null
+        },
+        {
+          "time": "10:05",
+          "value": 0,
+          "updateTime": null
         }
       ]
     },
@@ -2897,6 +2917,11 @@
         {
           "time": "09:25",
           "value": 490,
+          "updateTime": null
+        },
+        {
+          "time": "10:05",
+          "value": 710,
           "updateTime": null
         }
       ]
